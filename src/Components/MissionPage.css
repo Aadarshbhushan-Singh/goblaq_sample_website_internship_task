@@ -1,0 +1,33 @@
+.top_content{
+    display: flex;
+    padding: 5% 1% 5% 1%;
+}
+.top_left{
+    margin-right: 20%;
+}
+.top_right{
+    margin-right: 2%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    flex: 11%;
+    max-width: 25%;
+    padding: 0 4px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 150%;
+    height: 180%;
+    padding-left:30%;
+    padding-right: 30%;
+    clip-path: polygon(0% 10%, 100% 0, 100% 90%, 0 100%);
+  }

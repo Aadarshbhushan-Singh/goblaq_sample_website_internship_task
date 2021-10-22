@@ -1,0 +1,32 @@
+.whole_form{
+    display: flex;
+    background-color: rgb(12, 12, 92);
+    color: white;
+    padding: 12%;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.left_content h1{
+    font-size: 300%;
+}
+.left_content p{
+    margin-top: 15%;
+    margin-right: 30%;  
+}
+
+.form input, select, .button_form{
+    width: 150%;
+    padding: 3% 4% 3% 5%;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.1);
+    border: 0px solid black;
+    color: grey;
+}
+.button_form{
+    color: black;
+}
+input:hover{
+    color: white;
+}
+

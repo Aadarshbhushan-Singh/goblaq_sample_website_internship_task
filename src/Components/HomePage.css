@@ -1,0 +1,133 @@
+.button {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    background: linear-gradient(to right, rgb(240, 7, 7) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    color: black;    
+}
+#show_after{
+    display: none;
+}
+Button:hover{
+    background-position: left bottom;
+}
+Button:hover #show_after{
+    display: inline;
+}
+Button:hover #show_before{
+    display: none;
+}
+#button_text{
+    font-weight: bold;
+}
+
+.left_components{
+    margin-top: 10%;
+}
+
+
+/* For left components */
+
+.container{width: 700px;height: 300px;
+    margin: 100px auto;overflow: hidden;
+    position: absolute;
+    top: 9%;
+    left: 52%;
+  }
+.shape, .shape2, .shape3, .shape4, .shape5{
+width: 200px;
+height: 200px;
+background-color: #00eaff;
+border-radius: 50%;
+border-bottom-right-radius: 0;
+float: left;
+border: 5px solid #fff;
+}
+.shape2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 0%;
+}
+
+.shape3{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: lightcoral;
+    top: 0%;
+    left: 45%;
+    border-radius: 50%;
+    border-top-left-radius: 0%;
+
+}
+.shape4{
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.shape5{
+    background-color: green;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 200px;
+    height: 150px;
+    border-radius: 0%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+.outerShape, .outerShape2, .outerShape3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-bottom-right-radius: 0;
+    float: left;
+    border: 2px solid rgb(156, 154, 154);
+    position: absolute;
+    top: 15%;
+    left: 56%;
+}
+.outerShape2{
+    height: 300px;
+    border-radius: 100px;
+    top: 25%;
+    left: 82%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 0%;
+}
+.shape_image_class{
+    position: absolute;
+    top: 15%;
+    left: 52%;
+}
+
+#shape_image_id{
+width: 50%;
+height: 50%;
+border-radius: 50%;
+border-bottom-right-radius: 0;
+float: left;
+}
+#shape_image_id2{
+    width: 12%;
+    height: 48%;
+    position: absolute;
+    top: 15%;
+    left: 79%;
+    border-bottom-left-radius: 0%;  
+    border-bottom-right-radius: 50%;
+}
+#link_button{
+    text-decoration: none;
+}
+
