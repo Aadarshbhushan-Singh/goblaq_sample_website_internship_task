@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/">
             <HomePage/>
           </Route>
-          <Route exact path="/internship_task">
+          <Route exact path="/goblaq_sample_website_internship_task">
             <HomePage/>
           </Route>
           <Route exact path="/mission">
