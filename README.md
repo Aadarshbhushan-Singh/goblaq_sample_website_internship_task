@@ -1,11 +1,11 @@
 # Home Page
-![](Design/Home.png);
+![](Design/Home.png)
 
 # Waitlist
-![](Design/Waitlist.png);
+![](Design/Waitlist.png)
 
 # Join
-![](Design/Join.png);
+![](Design/Join.png)
 
 
 This project was made for a task for internship trial. 
