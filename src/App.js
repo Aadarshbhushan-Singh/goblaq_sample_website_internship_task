@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Header/>
         <Switch>
-          <Route exact path="/">
+          <Route path="/internship_task">
             <HomePage/>
           </Route>
           <Route exact path="/mission">
