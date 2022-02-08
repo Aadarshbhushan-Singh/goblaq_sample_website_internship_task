@@ -10,6 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 
+//This is app component
 function App() {
   return (
     <Router>
